@@ -13,6 +13,7 @@
     </ContentPage.BindingContext>
 
     <vlc:MediaPlayerElement
+        BackgroundColor="Red"
         EnableRendererDiscovery="True"
         LibVLC="{Binding LibVLC}"
         MediaPlayer="{Binding MediaPlayer}" />
