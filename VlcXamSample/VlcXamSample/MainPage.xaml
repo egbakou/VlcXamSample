@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="VlcXamSample.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:VlcXamSample"
+    xmlns:vlc="clr-namespace:LibVLCSharp.Forms.Shared;assembly=LibVLCSharp.Forms"
+    Appearing="OnAppearing"
+    Disappearing="OnDisappearing">
+
+    <ContentPage.BindingContext>
+        <local:MainViewModel />
+    </ContentPage.BindingContext>
+
+    <vlc:MediaPlayerElement
+        EnableRendererDiscovery="True"
+        LibVLC="{Binding LibVLC}"
+        MediaPlayer="{Binding MediaPlayer}" />
+
+</ContentPage>
