@@ -53,5 +53,5 @@ Without customization, the view look like VLC Android or iOS UI.
 
 > This screenshot comes from the sample using LibVLCSharp.Forms v.3.5.1
 
-Just type `Ctrl + Escape` in the `vlc:PlaybackControls` tag to discover more customizable properties.
+Just type `Ctrl + Space` in the `vlc:PlaybackControls` tag to discover more customizable properties.
 
