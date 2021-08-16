@@ -18,7 +18,7 @@ Without customization, the view look like VLC Android or iOS UI.
 
 ## Customizations
 
-- [x] Hide the playBackControls (the Seek bar and the buttons Bar)
+- [x] Hide the Playback Controls (the Seek bar and the buttons Bar)
 
 ```xaml
 <vlc:MediaPlayerElement
