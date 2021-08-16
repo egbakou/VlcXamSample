@@ -1,9 +1,6 @@
-﻿using LibVLCSharp.Forms.Shared;
-using LibVLCSharp.Shared;
+﻿using LibVLCSharp.Shared;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 
 namespace VlcXamSample
 {
