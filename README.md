@@ -48,8 +48,8 @@ Without customization, the view look like VLC Android or iOS UI.
 </vlc:MediaPlayerElement>
 ```
 
-| <img src="screenshots/Screen004.png" width="280" height="480" /><img src="screenshots/Screen005.png" width="280" height="480" /> |      |
-| ------------------------------------------------------------ | ---- |
+| <img src="screenshots/Screen004.png" width="280" height="480" /> | <img src="screenshots/Screen005.png" width="280" height="480" /> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 > This screenshot comes from the sample using LibVLCSharp.Forms v.3.5.1
 
