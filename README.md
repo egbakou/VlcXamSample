@@ -7,7 +7,7 @@
     MediaPlayer="{Binding MediaPlayer}" />
 ```
 
-Without customization, the view look like VLC Android or iOS UI.
+Without customization, the view looks like VLC Android or iOS UI.
 
 | <img src="screenshots/Screen001.png" width="280" height="480" /> | <img src="screenshots/Screen002.png" width="280" height="480" /> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
