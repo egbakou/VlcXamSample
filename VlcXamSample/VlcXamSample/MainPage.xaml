@@ -12,10 +12,32 @@
         <local:MainViewModel />
     </ContentPage.BindingContext>
 
-    <vlc:MediaPlayerElement
-        BackgroundColor="Red"
+    <!--  Default  -->
+    <!--<vlc:MediaPlayerElement
         EnableRendererDiscovery="True"
         LibVLC="{Binding LibVLC}"
-        MediaPlayer="{Binding MediaPlayer}" />
+        MediaPlayer="{Binding MediaPlayer}" />-->
+
+    <!--  Hide the PlayBack Controls  -->
+    <!--<vlc:MediaPlayerElement
+        EnableRendererDiscovery="True"
+        LibVLC="{Binding LibVLC}"
+        MediaPlayer="{Binding MediaPlayer}">
+        <vlc:MediaPlayerElement.PlaybackControls>
+            <vlc:PlaybackControls IsVisible="False" />
+        </vlc:MediaPlayerElement.PlaybackControls>
+    </vlc:MediaPlayerElement>-->
+
+
+    <!--  Change the main color  -->
+    <vlc:MediaPlayerElement
+        EnableRendererDiscovery="True"
+        LibVLC="{Binding LibVLC}"
+        MediaPlayer="{Binding MediaPlayer}">
+        <vlc:MediaPlayerElement.PlaybackControls>
+            <vlc:PlaybackControls MainColor="Red" />
+        </vlc:MediaPlayerElement.PlaybackControls>
+    </vlc:MediaPlayerElement>
+
 
 </ContentPage>
